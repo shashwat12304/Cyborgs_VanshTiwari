@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InvoiceAI Pro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <i class="fas fa-file-invoice-dollar"></i>
+            <h1>InvoiceAI Pro</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="#"><i class="fas fa-chart-line"></i> Analytics</a></li>
+                <li><a href="#"><i class="fas fa-file-alt"></i> Reports</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+            </ul>
+        </nav>
+        <div class="user-profile">
+            <span id="userName">Cyborgs</span>
+            <div class="user-avatar">CB</div>
+        </div>
+    </header>
+    <main class="container">
+        <section class="left-panel">
+            <div class="video-container">
+                <div class="video-preview" id="videoPreview">
+                    <p><i class="fas fa-video"></i> Video Preview</p>
+                    <video id="videoElement" style="display:none;"></video>
+                </div>
+                <div class="upload-overlay" id="uploadOverlay">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <p>Drag & Drop or Click to Upload</p>
+                </div>
+            </div>
+            <div class="button-group">
+                <button id="captureBtn" onclick="captureWebcam()"><i class="fas fa-camera"></i> Capture Webcam</button>
+                <button id="uploadBtn" onclick="triggerUpload()"><i class="fas fa-upload"></i> Upload Video</button>
+                <button id="uploadImageBtn" onclick="triggerImageUpload()"><i class="fas fa-image"></i> Upload Image</button>
+                <input type="file" id="fileInput" style="display: none;" accept="video/*,image/*" onchange="handleFileUpload(event)">
+            </div>
+            <div class="processing-status" id="processingStatus"></div>
+            <div class="progress-bar" id="progressBar">
+                <div class="progress" id="progress"></div>
+            </div>
+        </section>
+        <section class="right-panel">
+            <div class="result-box amount-box">
+                <h2><i class="fas fa-dollar-sign"></i> Detected Amount</h2>
+                <p class="amount" id="detectedAmount">Rs.0.00</p>
+            </div>
+            <div class="result-box category-box">
+                <h2><i class="fas fa-tag"></i> Invoice Category</h2>
+                <p id="invoiceCategory" style="color: var(--dark-grey-color);">Not detected</p>
+            </div>
+            <div class="result-box details-box">
+                <h2><i class="fas fa-info-circle"></i> Invoice Details</h2>
+                <ul id="invoiceDetails">
+                    <li><i class="fas fa-calendar-alt"></i> Date: <span id="invoiceDate">-</span></li>
+                    <li><i class="fas fa-store"></i> Vendor: <span id="invoiceVendor">-</span></li>
+                    <li><i class="fas fa-shopping-cart"></i> Items: <span id="invoiceItems">-</span></li>
+                </ul>
+            </div>
+            <button id="exportBtn" onclick="exportData()"><i class="fas fa-file-export"></i> Export Data</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
