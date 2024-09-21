@@ -1,0 +1,25 @@
+{
+    "BILL AMOUNT": "168.00",
+    "INVOICE CATEGORY": "Retail Invoice",
+    "FURTHER INFORMATION": {
+        "Date": "30-04-2023 13:55",
+        "Due In": "X",
+        "Bill No": "3535",
+        "Cashier": "Miler"
+    },
+    "ANALYSIS": {
+        "Items": [
+            {
+                "Description": "Ragina Rice Bowl",
+                "Quantity": 1,
+                "Price": 160.0,
+                "Total": 160.0
+            }
+        ],
+        "Subtotal": 160.0,
+        "Taxes": {
+            "SGST": 4.0,
+            "CGST": 4.0
+        }
+    }
+}

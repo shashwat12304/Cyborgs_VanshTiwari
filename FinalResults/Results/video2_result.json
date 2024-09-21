@@ -1,0 +1,16 @@
+{
+    "BILL AMOUNT": "63.00",
+    "INVOICE CATEGORY": "Food and Beverage",
+    "FURTHER INFORMATION": {
+        "Date": "07-09-2024",
+        "Time": "11:00",
+        "Bill Number": "2350",
+        "Cashier": "Offer",
+        "Item": "Adrak Chai",
+        "Quantity": "1",
+        "Subtotal": "60.00",
+        "CGST": "1.50",
+        "SGST": "1.50"
+    },
+    "ANALYSIS": "This is a retail invoice from Black Buck's Coffee for the purchase of one Adrak Chai, including applicable taxes."
+}
