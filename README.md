@@ -11,7 +11,28 @@
   <img alt="snake eating my contributions" src="https://github.com/shashwat12304/shashwat12304/blob/main/Utils/DATSAW.drawio.png"/>
   <br/><br/><br/>
 </div>
+---
+## Results Comparsion
+`Results comparison of Vision LLMs with Traditional Approaches`: Results saved in FinalResults folder
+Here’s a comparison between **Vision LLMs** (Large Language Models) and **traditional OCR approaches** like **PyTesseract** and **EasyOCR**, focusing on key factors such as accuracy, language support, generalization, flexibility, and more:
 
+
+| **Criteria**               | **Vision LLMs** (e.g., Donut, TrOCR, GPT-4 Vision)          | **PyTesseract**                     | **EasyOCR**                          |
+|----------------------------|------------------------------------------------------------|-------------------------------------|--------------------------------------|
+| **OCR Accuracy**            | High accuracy, especially with complex, dense, or multi-lingual documents. Can handle unstructured and noisy data effectively. | Good for structured, clean documents but struggles with complex layouts or distorted images. | Better than PyTesseract for some fonts and languages but still struggles with highly complex documents. |
+| **Multimodal Capabilities** | Can combine text extraction with contextual understanding and image reasoning, e.g., answering questions about images or extracting structured data from unstructured formats. | Limited to text extraction only. Cannot interpret images beyond identifying text regions. | Focuses on text extraction only, with no understanding of surrounding context or image content. |
+| **Generalization**          | Generalizes well to unseen document types and structures thanks to pretraining on large, diverse datasets. | Requires pre-processing steps and struggles to generalize to unseen or complex document structures. | Slightly better generalization than PyTesseract but still limited compared to Vision LLMs. |
+| **Language Support**        | Supports a wide range of languages due to large-scale pretraining (can handle multiple scripts and even complex or low-resource languages). | Strong support for 100+ languages but accuracy may vary, especially with lesser-known or non-standard languages. | Supports 80+ languages, often better with East Asian scripts, but might lag in rare language or complex scripts. |
+| **Complex Layout Handling** | Excels in handling complex layouts, tables, charts, and dynamic visual elements within documents. | Requires manual specification or segmentation of regions for accurate text extraction from complex layouts. | Can handle more layouts than PyTesseract but still not as efficient with highly structured documents (e.g., invoices, forms). |
+| **Model Customization**     | Pretrained Vision LLMs can be fine-tuned for specific use cases or document types, improving performance for specialized tasks. | Limited scope for customization beyond changing pre-processing or post-processing steps. | Allows some tuning with specific parameters but lacks the flexibility of training for custom use cases. |
+| **Speed**                   | Slower than traditional OCR methods due to larger model size and computational overhead, but modern models are optimized to work faster on specialized hardware (TPUs, GPUs). | Very fast, lightweight, works efficiently on CPU. | Reasonably fast, especially when using GPU, but slower than PyTesseract on CPU. |
+| **Contextual Understanding**| Vision LLMs can "understand" and interpret the context around the text (e.g., image reasoning or content comprehension). They can process both visual and semantic context. | No contextual understanding, limited to raw text extraction. | Limited to pure OCR with no contextual understanding. |
+| **Flexibility**             | Highly flexible, can be used for diverse tasks like document parsing, visual question answering, and content generation from images. | Best for basic OCR tasks, not suitable for complex or dynamic use cases. | Offers flexibility in terms of language but remains limited to text extraction. |
+| **Pre-processing Requirement** | Minimal pre-processing required, thanks to strong generalization capabilities. | Requires significant pre-processing (e.g., thresholding, noise removal) for optimal accuracy. | Requires less pre-processing than PyTesseract, but still needed for challenging cases. |
+| **Deployment Complexity**   | Requires specialized hardware (GPU/TPU) for optimal performance, and can be more complex to deploy than traditional OCR solutions. | Easy to deploy on a wide range of systems, including low-power devices; requires minimal dependencies. | Similar to PyTesseract in terms of deployment simplicity but may benefit more from GPU. |
+| **Cost**                    | Expensive to run due to high computational power, especially for large-scale or real-time applications. | Very cost-effective, minimal compute resources required. | Moderate resource usage, cheaper than Vision LLMs but more resource-hungry than PyTesseract. |
+| **Use Case Examples**       | Complex document processing (invoices, legal documents), visual question answering, generating structured data from unstructured images. | Simple document OCR (scanned documents, printed text), bulk text extraction. | Multi-language OCR, better suited for simpler documents, handwritten text, and East Asian scripts. |
+---
 ## Key Features
 
 1. **Video Input Capture**: 
