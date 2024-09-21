@@ -1,0 +1,9 @@
+opencv-python
+gradio
+uuid
+shutil
+dotenv
+langchain_ollama
+chromadb
+requests
+re
