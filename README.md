@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Billwizard: ChatOCR** is a powerful desktop application designed to capture video input (via webcam or pre-recorded video) to detect and extract the total bill amount from invoices. The tool leverages **Optical Character Recognition (OCR)** using Tesseract and integrates machine learning algorithms to categorize the invoices based on their content. The extracted data can then be exported in formats like **CSV, JSON, or XML** for downstream analysis or storage.
+**Billwizard: ChatOCR** is a powerful desktop application designed to capture video input (via webcam or pre-recorded video) to detect and extract the total bill amount from invoices. The tool leverages **Optical Character Recognition (OCR)** using Tesseract and integrates machine learning algorithms to categorize the invoices based on their content. The extracted data can then be exported in formats like **CSV, JSON, or XML** for downstream analysis or storage.The integration of **RAG** over invoices gives the capability of analyzing invoices for tasks such as Anomaly Detection using Natural language.
 
 ---
 <div align="center">
