@@ -168,14 +168,8 @@ Once processed, export the extracted invoice data in **CSV**, **JSON**, or **XML
 
 ## Future Enhancements
 
-1. **Database Integration**: 
-   - Implement persistent storage for invoices using a database (e.g., SQLite, MongoDB).
-   
-2. **Real-time Categorization**: 
-   - Enhance the ML model for quicker, more accurate categorization of invoices in real-time.
-
-3. **Improved OCR Accuracy**: 
-   - Train a custom OCR model or fine-tune Tesseract to handle complex or poorly scanned invoices.
-
-4. **Multi-language Support**: 
-   - Expand the OCR functionality to support invoices in multiple languages beyond English.
+1. **Improve User Privacy and Security**
+2. **Implement DATSAW**
+3. **Multi-language Support**
+4. **Implement Vision Agents**
+5. **Implement Tree Organized Analysis algorihms such as `RAPTOR`**
