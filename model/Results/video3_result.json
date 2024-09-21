@@ -1,0 +1,18 @@
+{
+    "BILL AMOUNT": 232.0,
+    "INVOICE CATEGORY": "Food & Beverage",
+    "FURTHER INFORMATION": {
+        "Date": "20-09-2024",
+        "Time": "10:25",
+        "Establishment": "Black Buck's Coffee",
+        "Location": "Gurugram",
+        "Items": [
+            {
+                "Name": "Americano (Regular)",
+                "Quantity": 2,
+                "Price": 130.0
+            }
+        ]
+    },
+    "ANALYSIS": "The invoice is from a coffee shop, detailing a purchase including quantities, subtotal, taxes, discounts, and the final amount. It appears to follow a standard format for retail invoices."
+}

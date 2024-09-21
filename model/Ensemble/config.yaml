@@ -1,0 +1,6 @@
+path: .
+train: train_images
+val: train_images
+
+names:
+  0: LP

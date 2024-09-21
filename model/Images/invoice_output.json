@@ -1,0 +1,17 @@
+{
+    "BILL AMOUNT": "$1,699.48",
+    "INVOICE CATEGORY": "Service Invoice",
+    "FURTHER INFORMATION": {
+        "Billed To": "Your Client",
+        "Date Issued": "26/3/2021",
+        "Invoice Number": "INV-10012",
+        "Due Date": "25/4/2021",
+        "Deposit Due": "$169.95"
+    },
+    "ANALYSIS": {
+        "Subtotal": "$1,798.39",
+        "Discount": "$179.84",
+        "Tax": "$80.93",
+        "Total After Adjustments": "$1,699.48"
+    }
+}
